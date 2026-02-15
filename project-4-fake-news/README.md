@@ -123,24 +123,6 @@ The model can classify custom input text after cleaning.
 
 ---
 
-## Project Structure
-
-```
-fake-news-detection/
-
-├── data/
-│   ├── Fake.csv
-│   └── True.csv
-│
-├── models/
-│   └── fake_news_detector.pkl
-│
-├── fake_news_detection.ipynb
-└── README.md
-```
-
----
-
 ## Model Persistence
 
 The trained model is saved using Joblib:
@@ -203,7 +185,7 @@ This contributes to high model accuracy when using linear models with TF-IDF.
 ## Author
 
 Sarah Zahir
-GitHub: https://github.com/YOUR_USERNAME  
+GitHub: https://github.com/Sarah2211  
 
 ---
 
