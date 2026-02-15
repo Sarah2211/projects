@@ -117,37 +117,6 @@ Run cells in order:
 3. Train model
 4. Save model
 
----
-
-### Option 2 — Local Machine
-
-Clone repository:
-
-```
-git clone https://github.com/YOUR_USERNAME/churn-prediction.git
-cd churn-prediction
-```
-
-Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-Download dataset:
-
-```
-python download_data.py
-```
-
-Train model:
-
-```
-python train.py
-```
-
----
-
 ## Example Prediction
 
 ```
@@ -182,8 +151,8 @@ Meaning customer is likely to churn.
 
 ## Author
 
-Your Name
-GitHub: [https://github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+Sarah Zahir 
+GitHub: https://github.com/Sarah2211
 
 ---
 
@@ -195,14 +164,3 @@ This project demonstrates real-world ML workflow used in industry:
 * Clean code structure
 * Reproducible results
 * Deployment-ready model
-
----
-
-If you want, I can also give:
-
-* README with badges
-* screenshots
-* Streamlit app version
-* or an advanced version using XGBoost
-
-Just tell me.
