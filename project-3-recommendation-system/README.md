@@ -88,23 +88,6 @@ This improves ranking stability and recommendation diversity.
 
 ---
 
-## 📁 Project Structure
-
-```
-hybrid-movie-recommender/
-
-├── models/
-│   ├── svd_model.pkl
-│   ├── content_similarity.pkl
-│   ├── movies_metadata.pkl
-│   └── hybrid_alpha.pkl
-│
-├── hybrid_recommender.ipynb
-└── README.md
-```
-
----
-
 ##  Example Output
 
 ### Top 10 Hybrid Recommendations for User 196
