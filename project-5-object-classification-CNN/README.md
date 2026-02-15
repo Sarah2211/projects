@@ -148,22 +148,7 @@ The trained model is saved as:
 ```
 resnet34_cifar10_advanced.pth, cnn_cifar10.pth
 ```
-
-It can be reloaded for inference without retraining.
-
----
-
-## 📁 Project Structure
-
-```
-image-classification-cnn/
-
-├── models/
-│   └── cnn_cifar10.pth
-│   └── resnet34_cifar10_advanced.pth
-├── Project5.ipynb
-└── README.md
-```
+(run the code to obtain the model)
 
 ---
 
@@ -206,6 +191,6 @@ image-classification-cnn/
 ## Author
 
 Sarah Zahir
-GitHub: https://github.com/YOUR_USERNAME  
+GitHub: https://github.com/Sarah2211  
 
 ---
