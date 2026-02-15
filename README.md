@@ -1,7 +1,3 @@
-Here is a **professional GitHub README.md** you can copy-paste directly into your repo. It’s written to impress recruiters and clearly explain your churn prediction project.
-
----
-
 # Customer Churn Prediction using Machine Learning
 
 Predict customer churn using machine learning. This project builds an end-to-end ML pipeline to identify customers likely to leave a telecom service.
