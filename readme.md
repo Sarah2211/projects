@@ -84,15 +84,6 @@ I'm a passionate AI/ML engineer and full-stack developer who loves building inte
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sarah2211&show_icons=true&theme=tokyonight&hide_border=true" alt="Sarah's GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sarah2211&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="40%"/>
-</p>
-
----
-
 ## 🚀 Getting Started with My Projects
 
 ```bash
@@ -102,9 +93,6 @@ cd projects
 
 # Navigate to any project
 cd project-1-churn-prediction
-
-# Install dependencies
-pip install -r requirements.txt
 
 # Launch Jupyter Notebook
 jupyter notebook
