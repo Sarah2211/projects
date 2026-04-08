@@ -1,4 +1,4 @@
-# 🌍 Global Air Pollution Analysis — MATLAB
+# 🌍 Global Air Pollution Analysis using MATLAB
 
 Exploratory data analysis of global PM2.5 air quality using the [Global Air Pollution Dataset](https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset). The project preprocesses multi-pollutant readings from cities worldwide, analyses feature correlations, and visualises pollution patterns across cities and countries.
 
