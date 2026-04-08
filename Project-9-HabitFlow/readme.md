@@ -25,11 +25,12 @@ A clean, full-featured **habit tracker** built with Flutter — designed as a po
 
 ## Screenshots
 
-> _Add your own screenshots here once running — `flutter screenshot` or browser capture_
+Overview 
 
-| Overview | Day selected | Habit added |
-|----------|-------------|-------------|
-| _screenshot_ | _screenshot_ | _screenshot_ |
+<img width="1920" height="935" alt="image" src="https://github.com/user-attachments/assets/919d5af2-1d9f-4cdc-a881-8c822709a61f" />
+<img width="371" height="822" alt="image" src="https://github.com/user-attachments/assets/0718ff8b-de0b-4072-989e-6d161f7ad0ac" />
+
+
 
 ---
 
@@ -70,6 +71,8 @@ lib/
 └── widgets/
     ├── habit_tile.dart         # Individual habit card with progress & streaks
     └── add_habit_sheet.dart    # Bottom sheet form to create a new habit
+test/
+├── habit_test.dart
 ```
 
 ---
