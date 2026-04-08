@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Notes App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <h1>AWS Notes App</h1>
+      <p>Serverless notes app using S3, API Gateway, Lambda, and DynamoDB</p>
+    </header>
+
+    <section class="card form-card">
+      <h2 id="formTitle">Add a Note</h2>
+      <div class="form-group">
+        <input type="text" id="titleInput" placeholder="Enter note title" />
+      </div>
+      <div class="form-actions">
+        <button class="primary" onclick="saveOrUpdateNote()">Save Note</button>
+        <button class="secondary hidden" id="cancelEditBtn" onclick="cancelEdit()">Cancel Edit</button>
+      </div>
+    </section>
+
+    <section class="card notes-card">
+      <div class="notes-header">
+        <h2>Your Notes</h2>
+        <button class="secondary" onclick="loadNotes()">Refresh</button>
+      </div>
+      <ul id="notesList" class="notes-list"></ul>
+      <p id="emptyState" class="empty-state">No notes yet. Add your first one.</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
