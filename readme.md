@@ -35,6 +35,8 @@ I'm a passionate AI/ML engineer and full-stack developer who loves building inte
 | 4 | [📰 Fake News Detection](./project-4-fake-news) | Classifies news articles as real or fake using text classification models | `NLP` `LSTM` `Logistic Regression` |
 | 5 | [🖼️ Object Classification CNN](./project-5-object-classification-CNN) | Image classification with Convolutional Neural Networks and data augmentation | `CNN` `TensorFlow` `Keras` |
 | 6 | [🛡️ Hybrid Intrusion Detection System](./Project%20-6-Hybrid%20Intrusion%20Detection%20System) | Combines signature-based and anomaly-based detection to identify network threats | `Cybersecurity` `Ensemble` `Anomaly Detection` |
+| 7 | [📝 AWS Serverless Notes App](./Project%20-7%20AWS%20Serverless%20Notes%20App) | Full-stack CRUD notes app with a serverless AWS backend — S3 → API Gateway → Lambda → DynamoDB | `AWS` `Lambda` `DynamoDB` `API Gateway` `Python` |
+| 8 | [🌍 Global Air Pollution Analysis](./project-7-global-air-pollution-matlab) | Exploratory data analysis of PM2.5 air quality across 130+ countries using MATLAB | `EDA` `MATLAB` `Data Visualisation` |
 
 ---
 
@@ -126,6 +128,8 @@ cd project-1-churn-prediction
 # Launch Jupyter Notebook
 jupyter notebook
 ```
+
+> For the MATLAB project, navigate to `project-8-global-air-pollution-matlab/src/` and run `main.m` in MATLAB R2020b or later.
 
 ---
 
