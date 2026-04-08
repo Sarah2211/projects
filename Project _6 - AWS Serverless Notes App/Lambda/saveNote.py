@@ -1,19 +1,19 @@
 import json
 import boto3
+import uuid
 
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('NotesApp')
 
 def lambda_handler(event, context):
-    note_id = event['pathParameters']['id']
     body = json.loads(event['body'])
+    note_id = str(uuid.uuid4())
     title = body['title']
 
-    table.update_item(
-        Key={'id': note_id},
-        UpdateExpression='SET title = :t',
-        ExpressionAttributeValues={
-            ':t': title
+    table.put_item(
+        Item={
+            'id': note_id,
+            'title': title
         }
     )
 
@@ -25,7 +25,7 @@ def lambda_handler(event, context):
             'Access-Control-Allow-Methods': '*'
         },
         'body': json.dumps({
-            'message': 'Note updated',
+            'message': 'Note saved',
             'id': note_id
         })
     }
