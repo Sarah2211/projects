@@ -89,7 +89,7 @@ main
 
 ---
 
-## 🧠 Key Insights
+## Insights
 
 - **82.4%** of global city readings fall within the Good or Moderate PM2.5 range
 - **17.5%** of readings exceed AQI 100 — posing real health risks, particularly for sensitive groups
@@ -99,6 +99,6 @@ main
 
 ---
 
-## 👤 Author
+## 👤 Author - Sarah Syeda
 
 Built as a data analysis project in MATLAB to explore global air quality patterns and practice end-to-end data pipelines.
